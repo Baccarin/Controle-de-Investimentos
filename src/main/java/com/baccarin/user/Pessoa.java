@@ -13,9 +13,12 @@ public class Pessoa {
     private CadastroNacional cadNacional;
     private ArrayList<Carteira> carteiras = new ArrayList<Carteira>();
 	
+    public Pessoa (String nome) {
+    	this.nome = nome;
+    }
     
     public Pessoa(String nome, CadastroNacional cadNacional) {
-		this.nome = nome;
+		this(nome);
 		this.cadNacional = cadNacional;
 	}
     
