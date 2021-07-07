@@ -58,6 +58,7 @@ public class ScreenCadPessoa extends JFrame {
 	 * Create the frame.
 	 */
 	public ScreenCadPessoa() {
+		
 		this.initConfig();
 		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
